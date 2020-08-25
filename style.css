@@ -40,3 +40,14 @@ li {
 	margin-left: 1.3em;
 	font-size: 27pt;
  }
+
+ .links:hover {
+ 		opacity: .6;
+ }
+ #name {
+ 	margin: 1.5em; 
+ 	display: inline-block;
+ }
+ #name:hover {
+ 	color: #D6EEFF;
+ }
