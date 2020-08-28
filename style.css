@@ -31,8 +31,8 @@ li {
 
 #introContainer {
 	height: 20em;
-	width: 50%;
-	display: block;	
+	width: 45%;
+	display: inline-block;	
 	margin: 0;
 }
 
@@ -48,6 +48,27 @@ li {
  	margin: 1.5em; 
  	display: inline-block;
  }
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
  #name:hover {
  	color: #D6EEFF;
+ }
+ #navlisting {
+ 	margin: 5.0em; 
+ 	padding:auto; 
+ 	text-align: right; 
+ 	display: inline-block; 
+ 	position: absolute; 
+ 	right: 0px;
+ }
+#profile {
+	text-align: right;
+}
+ #portfolio {
+ 	margin: auto;
+ 	width: 55%;
+ 	height: 600px;
+ 	background-color: blue;
  }
