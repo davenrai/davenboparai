@@ -19,14 +19,14 @@ header {
 	align-content: stretch;
 }
 
-ul {
-  list-style: none;
-}
 
 li {
   display: inline;
   margin: 10px;
   font-size: 14pt;
+}
+u{
+	margin: 10px;
 }
 
 #introContainer {
@@ -53,7 +53,7 @@ a, a:visited, a:hover, a:active {
   text-decoration: none;
 }
  #name:hover {
- 	color: #D6EEFF;
+ 	color: darkslategrey;
  }
  #navlisting {
  	margin: 5.0em; 
@@ -68,7 +68,7 @@ a, a:visited, a:hover, a:active {
 }
  #portfolio {
  	margin: auto;
- 	width: 55%;
+ 	width: 80%;
  	height: 600px;
- 	background-color: blue;
+ 	color: darkslategrey;
  }
